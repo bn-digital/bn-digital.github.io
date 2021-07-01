@@ -1,4 +1,4 @@
-import React, { FC, MouseEventHandler, ReactElement } from "react"
+import React, { FC, MouseEventHandler } from "react"
 import { ElementData } from "."
 import "./Element.scss"
 import { Get } from "simple-icons"
