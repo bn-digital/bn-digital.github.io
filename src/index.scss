@@ -1,0 +1,19 @@
+@import '~normalize.css/normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #212224;
+}
+
+.center {
+  text-align: center;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 20px auto;
+}

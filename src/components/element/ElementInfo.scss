@@ -1,0 +1,62 @@
+#information {
+  grid-column: 5/13;
+  grid-row: 2/4;
+  font-size: 0.8vw;
+  padding: 0 5px;
+  max-height: 10vw;
+  overflow-y: scroll;
+
+  h1 {
+    margin: 0 0 0.5vw 0;
+  }
+}
+
+#element-box {
+  grid-column: 3/5;
+  grid-row: 2/4;
+  align-items: stretch;
+  text-align: center;
+  border: 1px solid #ffffff;
+  padding: 0.2vw;
+  overflow: hidden;
+
+  .symbol {
+    font-size: 4vw;
+    font-weight: 900;
+    height: calc(100% - 4vw);
+  }
+
+  .icon {
+    width: 1.5vw;
+    height: 1.5vw;
+  }
+
+  .element-name {
+    line-height: 1;
+    font-size: 1.3vw;
+  }
+
+  &.lanthanide {
+    margin-top: 0;
+  }
+}
+
+.category {
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin-left: 5px;
+  top: -0.3vw;
+  font-size: 0.8vw;
+  font-weight: 400;
+  position: relative;
+}
+
+.close-button {
+  float: right;
+  cursor: pointer;
+  color: #cccccc;
+}
+
+.close-button:hover {
+  color: #333333;
+}

@@ -1,10 +1,39 @@
 {
   "name": "@bn-digital/bndigital.github.io",
   "description": "BN Digital Developers welcome page",
-  "homepage": "bndigital.dev",
+  "homepage": "https://bndigital.github.io",
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "simple-icons": "^5.4.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.0"
-  }
+    "@types/node": "^15.12.5",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "@types/simple-icons": "^5.0.0",
+    "gh-pages": "^3.2.3",
+    "normalize.css": "^8.0.1",
+    "prettier": "^2.3.2",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "not dead",
+    "last 2 iOS major versions",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

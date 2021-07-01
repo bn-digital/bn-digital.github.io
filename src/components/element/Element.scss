@@ -1,0 +1,87 @@
+.element {
+  cursor: pointer;
+  width: 5vw;
+  height: 5vw;
+  border: 1px solid #ffffff;
+  border-collapse: collapse;
+  text-align: center;
+  overflow: hidden;
+}
+
+.icon {
+  top: 5px;
+  left: 5px;
+  text-align: start;
+  height: 0.8vw;
+  width: 0.8vw;
+  position: relative;
+  display: flex;
+}
+
+.symbol {
+  font-weight: bold;
+  display: flex;
+  height: calc(100% - 2.5vw);
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+}
+
+.element-name {
+  height: 1.5vw;
+  line-height: 1.1;
+  vertical-align: center;
+  font-size: 0.65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.appearance {
+  margin-bottom: 0.5vw;
+}
+
+.atom_info {
+  margin-bottom: 0.5vw;
+  color: #363432;
+}
+
+/* Helium to the top right  */
+.element-2 {
+  grid-column-start: -2;
+}
+
+/* Boron & Alumunium to the right  */
+.element-5,
+.element-13 {
+  grid-column-start: 13;
+}
+
+/* Lanthinide & Actinoid split  */
+.element-57,
+.element-90 {
+  grid-column-start: 3;
+}
+
+/* I DID NOT KNOW THERE WAS 119th ONE! */
+
+.element-119 {
+  grid-column-start: -2;
+}
+
+/* Categories and Groups */
+
+/* Disable the top space for the first lathenide which sits inside the table  */
+.element-57 {
+  margin: 0;
+}
+
+/* When in the hover state  */
+.active {
+  background: #fff;
+  /* border-color: yellow; */
+}
